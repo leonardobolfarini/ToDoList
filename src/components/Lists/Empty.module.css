@@ -1,0 +1,25 @@
+.emptyList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid var(--gray-400);
+    border-radius: 8px;
+    padding: 4rem 1.5rem;  
+}
+
+.emptyList img{
+    margin-bottom: 1rem;
+}
+
+.emptyList p{
+    padding-bottom: 0.25rem;
+    line-height: 1.4;
+    color: var(--gray-300);
+    font-weight: bold;
+}
+
+.emptyList footer{
+    line-height: 1.4;
+    color: var(--gray-300);
+}

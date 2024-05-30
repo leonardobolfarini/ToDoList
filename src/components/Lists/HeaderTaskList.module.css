@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 0.875rem;
+    margin-bottom: 1.5rem;
+}
+
+.header p{
+    color: var(--blue-300);
+}
+
+.header span{
+    color: var(--gray-200);
+    background: var(--gray-400);
+    border-radius: 999px;
+    font-size: 0.75rem;
+    padding: 0.125rem 0.5rem;
+}
+
+.header footer{
+    color: var(--purple-300)
+}

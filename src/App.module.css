@@ -1,0 +1,27 @@
+.content{
+    max-width: 46rem;
+    width: 100%;
+  
+    margin: 0 auto;
+  }
+
+.taskBar{
+  margin-top: -2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.375rem;
+  margin-bottom: 4rem;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.tasks > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
